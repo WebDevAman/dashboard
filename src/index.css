@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
